@@ -11,6 +11,7 @@ body{
 }
 
 .content{
+    overflow: hidden;
     display: flex;
     margin-top: 198px;
     margin-left: 50px;
@@ -41,25 +42,29 @@ body{
 
 
 .rec1{
+    flex-direction: column;
     margin-left: 398px;
+    margin-top: 120px;
 }
 
 .big-pic{
     position: absolute;
     left: 60%;
-    top: 4%;
-    width: 276px;
+    top: 6%;
+    width: 256px;
 }
 .rec2{
     margin-left: -118px;
+    
 }
 
 .rec3{
-    margin-left: -228px;
+    margin-left: -258px;
 }
 
 .rec4{
     margin-left: -199px;
+    
 }
 
 
